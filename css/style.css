@@ -253,27 +253,38 @@
     display: block;
   }
 
-  /* body */
+  /* *** body *** */
   .body {
     padding-left: 170px;
     padding-right: 130px;
-
   }
 
   /* Sub-heading */
-  .left :first-child{
-      color: var(--secondary);
-      font-weight: bold;
-      font-size: 36px;
-      letter-spacing: 20px;
+  .left :first-child {
+    color: var(--secondary);
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 20px;
   }
 
   /* heading */
-  .left :nth-child(2){
-      color: black;
-      font-weight: bold;
-      font-size: 48px;
-      line-height: 54px;
-      margin-top: 30px;
+  .left :nth-child(2) {
+    color: black;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 54px;
+    margin-top: 30px;
+  }
+
+  /* Download Now button */
+  #download-now {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 48px;
+    width: 55%;
+    height: 72px;
+    border-radius: 20px;
+    background: linear-gradient(100deg, var(--primary), var(--secondary) 60%);
+    border: none;
   }
 }
