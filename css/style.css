@@ -1,53 +1,65 @@
 /* default styles */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /* variables */
-:root{
-    --primary: #74917D;
-    --primary-variant: rgba(116, 145, 125, .5);
-    --secondary: #918383;
-    --color-alert: #BB0000;
-    --emphasis-yellow: #FEFE00;
-    --subtle-red: #F54A4D;
+:root {
+  --primary: #74917d;
+  --primary-variant: rgba(116, 145, 125, 0.5);
+  --secondary: #918383;
+  --color-alert: #bb0000;
+  --emphasis-yellow: #fefe00;
+  --subtle-red: #f54a4d;
 }
 
-/* header */
-.header{
+/* ############### PHONE ############## */
+@media screen and (min-width: 300px) {
+  /* header */
+  .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 30px;
-    padding-right: 170px;
-}
+    padding-right: 30px;
+  }
 
-/* logo container */
-.logo{
+  /* logo container */
+  .logo {
     display: flex;
     justify-content: flex-start;
     gap: 24px;
     align-items: center;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    width: 30%;
+    padding-top: 0px;
+    padding-bottom: 0px;
     position: relative;
-}
+  }
 
-/* logo */
-.logo p{
+  /* logo desktop */
+  .logo :first-child {
     color: black;
     font-size: 18px;
     font-weight: bold;
     position: relative;
     top: 10px;
-}
+    display: none;
+  }
 
-/* download button */
-.logo button{
+  /* logo mobile */
+  .logo :nth-child(2){
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+  }
+
+  /* download button desktop */
+  .logo button {
     font-size: 18px;
     color: black;
     font-weight: bold;
@@ -58,10 +70,170 @@
     justify-content: center;
     align-items: center;
     gap: 7px;
+    display: none;
+  }
+
+  /* call */
+  .call {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    gap: 24px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  /* call text */
+  .call p {
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 8px;
+    display: none;
+  }
 }
 
-/* call */
-.call{
+/* ############ TABLET ########## */
+@media screen and (min-width: 700px) {
+    /* header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  
+    /* logo container */
+    .logo {
+      display: flex;
+      justify-content: flex-start;
+      gap: 24px;
+      align-items: center;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      position: relative;
+    }
+  
+    /* logo desktop */
+    .logo :first-child {
+      color: black;
+      font-size: 18px;
+      font-weight: bold;
+      position: relative;
+      top: 10px;
+      display: none;
+    }
+  
+    /* logo mobile */
+    .logo :nth-child(2){
+      color: black;
+      font-size: 32px;
+      font-weight: bold;
+      position: relative;
+      top: 10px;
+    }
+  
+    /* download button desktop */
+    .logo button {
+      font-size: 18px;
+      color: black;
+      font-weight: bold;
+      background-color: white;
+      border: solid black 1px;
+      border-radius: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 7px;
+      display: none;
+    }
+  
+    /* call */
+    .call {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      position: relative;
+      gap: 24px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+  
+    /* call text */
+    .call p {
+      font-size: 18px;
+      font-weight: bold;
+      position: relative;
+      top: 8px;
+      display: none;
+    }
+  }
+/* ############ DESKTOP ########## */
+@media screen and (min-width: 1100px) {
+  /* header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 170px;
+  }
+
+  /* logo container */
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+    align-items: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    width: 30%;
+    position: relative;
+  }
+
+  /* logo */
+  .logo :first-child {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    display: block;
+  }
+
+  /* logo mobile */
+  .logo :nth-child(2){
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    display: none;
+  }
+
+  /* download button desktop */
+  .logo button {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+  }
+
+  /* download icon */
+  .logo button > img {
+    margin-bottom: 18px;
+  }
+
+  /* call */
+  .call {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -70,12 +242,14 @@
     gap: 24px;
     padding-top: 17px;
     padding-bottom: 17px;
-}
+  }
 
-/* call text */
-.call p{
+  /* call text */
+  .call p {
     font-size: 18px;
     font-weight: bold;
     position: relative;
     top: 8px;
+    display: block;
+  }
 }
