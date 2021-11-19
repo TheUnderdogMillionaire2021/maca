@@ -57,7 +57,7 @@
           <!-- heading -->
           <p>MOST NATURAL MANPOWER BOOSTER!!</p>
           <!-- Download Now button -->
-          <button class="btn btn-primary" id="download-now">
+          <button class="btn btn-primary" id="download-now" data-bs-toggle="modal" data-bs-target="#myModal">
             Download Now!
           </button>
         </div>
@@ -68,6 +68,47 @@
           </div>
         </div>
       </div>
+    </div>
+    <!-- Modal container-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- modal -->
+                <div class="modal fade" id="myModal">
+                    <!-- dialog -->
+                    <div class="modal-dialog modal-lg">
+                        <!-- modal content -->
+                        <div class="modal-content">
+                            <!-- modal body -->
+                            <div class="modal-body">
+                                <p>Where should I send your FREE pdf</p>
+                                <!-- form -->
+                                <form id="form">
+                                    <!-- name -->
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name">
+                                    </div>
+                                    <!-- email -->
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="email">
+                                    </div>
+                                    <!-- send sms checkbox -->
+                                    <div class="form-group">
+                                        <input type="checkbox" name="send sms" id="send-sms">
+                                    </div>
+                                    <!-- phone number -->
+                                    <div class="form-group">
+                                        <input type="tel" class="form-control" id="email">
+                                    </div>
+                                    <!-- Download Now button -->
+                                    <button class="btn btn-primary" id="modal-button">Download Now!</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
   </body>
 </html>
