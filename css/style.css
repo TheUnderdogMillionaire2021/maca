@@ -50,7 +50,7 @@
   }
 
   /* logo mobile */
-  .logo :nth-child(2){
+  .logo :nth-child(2) {
     color: black;
     font-size: 32px;
     font-weight: bold;
@@ -96,80 +96,80 @@
 
 /* ############ TABLET ########## */
 @media screen and (min-width: 700px) {
-    /* header */
-    .header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding-left: 30px;
-      padding-right: 30px;
-    }
-  
-    /* logo container */
-    .logo {
-      display: flex;
-      justify-content: flex-start;
-      gap: 24px;
-      align-items: center;
-      padding-top: 0px;
-      padding-bottom: 0px;
-      position: relative;
-    }
-  
-    /* logo desktop */
-    .logo :first-child {
-      color: black;
-      font-size: 18px;
-      font-weight: bold;
-      position: relative;
-      top: 10px;
-      display: none;
-    }
-  
-    /* logo mobile */
-    .logo :nth-child(2){
-      color: black;
-      font-size: 32px;
-      font-weight: bold;
-      position: relative;
-      top: 10px;
-    }
-  
-    /* download button desktop */
-    .logo button {
-      font-size: 18px;
-      color: black;
-      font-weight: bold;
-      background-color: white;
-      border: solid black 1px;
-      border-radius: 12px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 7px;
-      display: none;
-    }
-  
-    /* call */
-    .call {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      position: relative;
-      gap: 24px;
-      padding-top: 0px;
-      padding-bottom: 0px;
-    }
-  
-    /* call text */
-    .call p {
-      font-size: 18px;
-      font-weight: bold;
-      position: relative;
-      top: 8px;
-      display: none;
-    }
+  /* header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
   }
+
+  /* logo container */
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: relative;
+  }
+
+  /* logo desktop */
+  .logo :first-child {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    display: none;
+  }
+
+  /* logo mobile */
+  .logo :nth-child(2) {
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+  }
+
+  /* download button desktop */
+  .logo button {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    display: none;
+  }
+
+  /* call */
+  .call {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    gap: 24px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  /* call text */
+  .call p {
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 8px;
+    display: none;
+  }
+}
 /* ############ DESKTOP ########## */
 @media screen and (min-width: 1100px) {
   /* header */
@@ -204,7 +204,7 @@
   }
 
   /* logo mobile */
-  .logo :nth-child(2){
+  .logo :nth-child(2) {
     color: black;
     font-size: 32px;
     font-weight: bold;
@@ -251,5 +251,29 @@
     position: relative;
     top: 8px;
     display: block;
+  }
+
+  /* body */
+  .body {
+    padding-left: 170px;
+    padding-right: 130px;
+
+  }
+
+  /* Sub-heading */
+  .left :first-child{
+      color: var(--secondary);
+      font-weight: bold;
+      font-size: 36px;
+      letter-spacing: 20px;
+  }
+
+  /* heading */
+  .left :nth-child(2){
+      color: black;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 54px;
+      margin-top: 30px;
   }
 }
