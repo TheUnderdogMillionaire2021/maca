@@ -101,7 +101,135 @@
       padding-top: 48px;
     }
   
-    
+    /* **** body **** */
+    /* warning sign */
+    .wait{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0;
+    }
+
+    /* warning message */
+    .wait p{
+      font-size: 36px;
+      font-weight: bold;
+      color: #BB0000;
+    }
+
+    .body :nth-child(2){
+      font-size: 24px;
+      text-align: center;
+    }
+
+    /* subheading */
+    .body :nth-child(3){
+      font-size: 20px;
+      text-align: center;
+    }
+
+    /* questions */
+    .questions{
+      font-size: 24px;
+      text-align: center;
+      font-weight: 500;
+    }
+
+    .body :nth-child(8){
+      font-size: 24px;
+      text-align: start;
+      
+    }
+
+    /* youthful */
+    .youthful, .excited-partner, .get-noticed{
+      display: flex;
+      align-items: center;
+      margin-top: 90px;
+    }
+
+    /* youthful */
+    .youthful p, #excited-partner, #get-noticed{
+      font-size: 24px;
+    }
+
+    .bold-text{
+      font-weight: bold;
+    }
+
+    .excited-partner{
+      display: flex;
+      flex-direction: column-reverse;
+    }    
+
+    /* sales letter */
+    .sales-letter p{
+      font-size: 24px;
+      text-align: start !important;
+      margin-bottom: 30px;
+    }
+
+    .sales-letter #p1{
+      margin-top: 90px;
+    }
+
+    #p2{
+      text-align: start;
+      margin-top: 48px;
+    }
+
+    .p{
+      font-size: 24px !important;
+    }
+
+    /* highlited text */
+    .highlited-text{
+      font-size: 28px !important;
+      width: fit-content;
+      margin: 60px auto;
+    }
+
+    #p2{
+      font-size: 24px;
+      text-align: start;
+      margin-top: 48px;
+    }
+
+    mark {
+      background-color: yellow;
+      color: black;
+    }
+
+    .red{
+      color: #F54A4D;
+    }
+
+    .custom-size{
+      font-size: 24px !important;
+    }
+
+    /* black marker */
+    .black-marker{
+      background-color: black;
+    }
+
+    /* images */
+    .images{
+      max-width: 90%;
+      margin-bottom: 60px;
+    }
+
+    #benefits li{
+      font-size: 24px;
+      margin: 0 !important;
+      padding: 0 !important;
+      text-align: start !important;
+    }
+
+    .convincing{
+      font-size: 48px !important;
+    }
+
   }
   
   /* ############ TABLET ########## */
@@ -187,6 +315,21 @@
       padding-top: 48px;
     }
   
+    /* **** body **** */
+    /* warning sign */
+    .wait{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0;
+    }
+
+    /* warning message */
+    .wait p{
+      font-size: 36px;
+      font-weight: bold;
+      color: #BB0000;
+    }
     
   }
   /* ############ DESKTOP ########## */
@@ -275,10 +418,128 @@
     /* *** body *** */
     .body {
       padding-left: 170px;
-      padding-right: 130px;
+      padding-right: 170px;
       padding-top: 48px;
     }
   
+    /* warning sign */
+    .wait{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 48px;
+    }
+
+    /* warning message */
+    .wait p{
+      font-size: 48px;
+      font-weight: bold;
+      color: #BB0000;
+    }
+
+    /* heading */
+    .body :nth-child(2){
+      font-size: 36px;
+      text-align: center;
+    }
+
+    /* subheading */
+    .body :nth-child(3){
+      font-size: 24px;
+      text-align: center;
+    }
+
+    /* questions */
+    .questions{
+      font-size: 24px;
+      text-align: center;
+      font-weight: 500;
+    }
+    
+    /* youthful */
+    .youthful, .excited-partner, .get-noticed{
+      display: flex;
+      align-items: center;
+      margin-top: 90px;
+    }
+
+    /* excited */
+    .youthful p, #excited-partner, #get-noticed{
+      font-size: 24px;
+    }
+
+    .bold-text{
+      font-weight: bold;
+    }
+
+    .excited-partner{
+      display: flex;
+      flex-direction: row;
+    }
+    
+    /* sales letter */
+    .sales-letter p{
+      font-size: 24px;
+      text-align: start !important;
+      margin-bottom: 30px;
+    }
+
+    .sales-letter #p1{
+      margin-top: 60px;
+    }
+
+    /* highlited text */
+    .highlited-text{
+      font-size: 28px !important;
+      width: fit-content;
+      margin: 60px auto;
+    }
+
+    mark {
+      background-color: yellow;
+      color: black;
+    }
+
+    #p2{
+      font-size: 24px;
+      text-align: start;
+      margin-top: 48px;
+    }
+
+    .red{
+      color: #F54A4D;
+    }
+
+    .custom-size{
+      font-size: 24px !important;
+    }
+
+    /* black marker */
+    .black-marker{
+      background-color: black;
+    }
+
+    /* images */
+    .images{
+      max-width: 100%;
+      margin-bottom: 60px;
+    }
+
+    /* center marker */
+    .center-marker{
+      margin: 30px auto !important;
+    }
+
+    #benefits li{
+      font-size: 24px;
+      margin: 0 !important;
+      padding: 0 !important;
+      text-align: start !important;
+    }
+
+    .convincing{
+      font-size: 48px !important;
+    }
     
   }
   
