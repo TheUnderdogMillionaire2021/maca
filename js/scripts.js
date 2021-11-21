@@ -10,4 +10,8 @@ $(document).ready(function(){
     $("#logo").click(function(){
         window.location.replace("/maca/");
     });
+
+    $("#btn-whatsapp").click(function(){
+        window.location.href = "https://wa.link/ga4hj5";
+    });
 });
