@@ -8,6 +8,6 @@ $(document).ready(function(){
     });
 
     $("#logo").click(function(){
-        window.location.replace("/");
+        window.location.replace("/maca/");
     });
 });
