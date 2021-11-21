@@ -16,6 +16,10 @@
     --emphasis-yellow: #fefe00;
     --subtle-red: #f54a4d;
   }
+
+  #logo {
+    cursor: pointer;
+  }
   
   /* ############### PHONE ############## */
   @media screen and (min-width: 300px) {
