@@ -3,7 +3,7 @@ $(document).ready(function(){
         event.preventDefault();
 
         setTimeout(function(){
-            window.location.replace("/salespage.html");
+            window.location.replace("/maca/salespage");
         }, 3000);
     });
 
