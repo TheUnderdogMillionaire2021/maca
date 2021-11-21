@@ -22,6 +22,10 @@
   color: black;
 }
 
+#logo {
+  cursor: pointer;
+}
+
 /* ############### PHONE ############## */
 @media screen and (min-width: 300px) {
   /* header */

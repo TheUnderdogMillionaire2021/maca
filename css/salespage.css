@@ -17,6 +17,11 @@
     --subtle-red: #f54a4d;
   }
 
+  .call a{
+    text-decoration: none;
+    color: black;
+  }
+
   #logo {
     cursor: pointer;
   }
